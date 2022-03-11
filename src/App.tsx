@@ -1,17 +1,13 @@
-import React from 'react';
-import TheLayout from './views/pages/TheLayout';
+import React from "react";
+import TheLayout from "./views/pages/TheLayout";
 
-
-function App() {
-  const jewel = 52
+const App = () => {
   return (
-    <div className="App ">
-      <header className="App-header">
-        <h1>i am jewel rana</h1>
-       <TheLayout/>
-      </header>
+    <div>
+      <h1>the header area</h1>
+      <TheLayout/>
     </div>
   );
-}
+};
 
 export default App;
