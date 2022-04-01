@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProductCard = () => {
+const ProductCard = ({product} : {product: any}) => {
   return (
     <div>
         <div className="">
@@ -8,7 +8,10 @@ const ProductCard = () => {
 
         </div>
         <div className="">
-            <h4>Product title</h4>
+          <div className="m-2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp-ZRCKV02JWP0AzlEqjhCc7wJNokdOUrCEg&usqp=CAU" alt="" />
+          </div>
+            <h4>{product}</h4>
             <p>product price</p>
         </div>
     </div>
